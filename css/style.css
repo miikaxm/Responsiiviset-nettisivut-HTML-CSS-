@@ -3,6 +3,7 @@
 :root {
     --teksti: #333333;
     --tausta: #eeeeee;
+    --teksti-vaalea: #dddddd;
 }
 
 * {
@@ -15,4 +16,34 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: var(--tausta);
     color: var(--teksti);
+}
+
+/* main-lohkon tyylit */
+main {
+    font-size: 1.5em;
+    line-height: 1.4em;
+
+}
+
+/* section-lohkon tyylit */
+section {
+    max-width: 900px;
+    width: 70%;
+    margin: 20px auto;
+}
+
+/* showcase */
+.showcase {
+    font-size: 1.7em;
+    padding-top: 50px;
+    width: 100%;
+    height: 300px;
+    background-image: url('../img/code-1076536_1280.jpg');
+}
+
+.showcase > div {
+    color: var(--teksti-vaalea);
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
 }
