@@ -14,18 +14,20 @@
 
 /* Yleiskäyttöisiä tyylejä */
 
-/* Vertikaalista keskittämistä*/
+/* Vertikaalista keskittämistä */
 .v-center {
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
 }
 
+/* Oikea reuna */
 .h-right {
     position: absolute;
     right: 0;
 }
 
+/* Vasen reuna */
 .h-left {
     position: absolute;
     left: 0;
@@ -141,3 +143,22 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+  /* Ammattitaitovaatimukset */
+.ammattitaitovaatimukset {
+    padding: 0;
+}
+
+.ammattitaitovaatimukset > li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.ammattitaitovaatimukset > ul {
+    border-left: var(--highlight) solid 5px;
+}
+
+.ammattitaitovaatimukset > ul li {
+    padding: 0;
+    list-style-type: square;
+}
