@@ -33,7 +33,6 @@
     left: 0;
 }
 
-
 body {
     margin: 0;
     padding: 0;
@@ -154,11 +153,11 @@ table {
     padding-bottom: 20px;
 }
 
-.ammattitaitovaatimukset > ul {
+.ammattitaitovaatimukset > li ul {
     border-left: var(--highlight) solid 5px;
 }
 
-.ammattitaitovaatimukset > ul li {
-    padding: 0;
+.ammattitaitovaatimukset > li ul {
+    padding: 10;
     list-style-type: square;
 }
