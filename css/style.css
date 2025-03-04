@@ -38,6 +38,10 @@ body {
     font-family: 'Lato', sans-serif;
     background-color: var(--tausta);
     color: var(--teksti);
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
@@ -109,6 +113,7 @@ section {
     max-width: 50%;
     text-align: center;
     margin: 0 auto;
+
 }
 
 /* Footer tyylit */
@@ -117,6 +122,7 @@ footer {
     color: var(--teksti-vaalea);
     padding: 40px 0;
     text-align: center;
+    margin-top: auto;
 }
 
 /* Table tyylit*/ 
