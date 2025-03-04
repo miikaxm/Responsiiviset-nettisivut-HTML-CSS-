@@ -5,7 +5,7 @@
     --tausta: #eeeeee;
     --teksti-vaalea: #dddddd;
     --bg-dark: #444444;
-    --highlight: #51377c;
+    --highlight: #2735b9;
 }
 
 * {
@@ -14,23 +14,24 @@
 
 /* Yleiskäyttöisiä tyylejä */
 
-/* Vertikaalista keskittämistä*/
+/* Vertikaalista keskittämistä */
 .v-center {
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
 }
 
+/* Oikea reuna */
 .h-right {
     position: absolute;
     right: 0;
 }
 
+/* Vasen reuna */
 .h-left {
     position: absolute;
     left: 0;
 }
-
 
 body {
     margin: 0;
@@ -98,7 +99,7 @@ section {
 
 /* showcase */
 .showcase {
-    background-image: url('../img/communication-4871230_1280.jpg');
+    background-image: url('../img/network-5593606_1280.jpg');
     color: var(--teksti-vaalea);
     width: 100%;
     max-width: 100%;
@@ -141,3 +142,22 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+  /* Ammattitaitovaatimukset */
+.ammattitaitovaatimukset {
+    padding: 0;
+}
+
+.ammattitaitovaatimukset > li {
+    list-style-type: none;
+    padding-bottom: 20px;
+}
+
+.ammattitaitovaatimukset > li ul {
+    border-left: var(--highlight) solid 5px;
+}
+
+.ammattitaitovaatimukset > li ul {
+    padding: 10;
+    list-style-type: square;
+}
