@@ -1,5 +1,5 @@
 /* Mobiili-tyylit */
-@media only screen and (max-width: 954px) {
+@media only screen and (max-width: 955px) {
     /*
     Asetetaan elementit allekkain 100% leveydelle 
     */
@@ -23,6 +23,12 @@
         padding: 5px 0;
     }
 
+    .muodostuminenlistaborder {
+        border-left: none;
+        list-style-type: square;
+    }
+    
+
     header nav {
         text-align: center;
     }
@@ -34,7 +40,7 @@
     }
 
     .showcase {
-        background-image: url('../img/network-5593606_1280.jpg');
+        background-image: url('../img/mobilebanner.jpg');
         color: var(--teksti-vaalea);
         width: 100%;
         max-width: 100%;
@@ -47,7 +53,7 @@
     .ingressi {
         font-size: 1em;
         font-style: italic;
-        line-height: 1em;
+        line-height: 1.2em;
     }
     
     .ingressi::first-letter {
@@ -72,8 +78,45 @@
     }
     
     .ammattitaitovaatimukset > li ul {
-        padding: 10;
         list-style-type: square;
     }
 
+    .muodostuminenlistaborder > ul li {
+        border-left: none;
+    }
+
+    .muodostuminenlistaborder {
+        list-style-type: square;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .showcase {
+        background-image: url('../img/banner-5250180_1280\ \(1\).jpg');
+        color: var(--teksti-vaalea);
+        width: 100%;
+        max-width: 100%;
+        padding: 10px 0;
+        text-align: center;
+        font-size: 1em;
+        line-height: 1.7em;
+    }
+}
+
+@media only screen and (min-width: 320px) {
+    .tablefontti {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (min-width: 375px) {
+    .tablefontti {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 425px) {
+    .tablefontti {
+        font-size: 23px;
+    }
 }

@@ -5,7 +5,7 @@
     --tausta: #eeeeee;
     --teksti-vaalea: #dddddd;
     --bg-dark: #444444;
-    --highlight: #88b532;
+    --highlight: #324ace;
 }
 
 * {
@@ -99,7 +99,7 @@ section {
 
 /* showcase */
 .showcase {
-    background-image: url('../img/network-5593606_1280.jpg');
+    background-image: url('../img/banner.jpg');
     color: var(--teksti-vaalea);
     width: 100%;
     max-width: 100%;
@@ -158,6 +158,10 @@ table {
 }
 
 .ammattitaitovaatimukset > li ul {
-    padding: 10;
+    list-style-type: square;
+}
+
+.muodostuminenlistaborder {
+    border-left: #324ace solid 5px;
     list-style-type: square;
 }
