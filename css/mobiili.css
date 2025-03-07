@@ -28,7 +28,6 @@
         list-style-type: square;
     }
     
-
     header nav {
         text-align: center;
     }
@@ -90,7 +89,7 @@
     }
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (max-width: 640px) {
     .showcase {
         background-image: url('../img/banner-5250180_1280\ \(1\).jpg');
         color: var(--teksti-vaalea);
