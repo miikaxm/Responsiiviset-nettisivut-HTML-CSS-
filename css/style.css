@@ -67,6 +67,7 @@ header nav a {
 header nav a:hover {
     color: var(--teksti);
     background-color: var(--highlight);
+    border-radius: 10px;
 }
 
 .ingressi {
